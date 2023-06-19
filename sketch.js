@@ -1751,7 +1751,7 @@ function drawhome0() {
   if (0 < frameCount % 60 && frameCount % 60 <= 30) {
     image(images[2][1], 1010, 375, 182, 265); // 첫 번째 이미지
   } else {
-    image(images[2][1.1], 1010, 375, 182, 265); // 두 번째 이미지
+    image(images[2][1.1], 1000, 365, 202, 285); // 두 번째 이미지
   }
 
   image(images[0][2], 58, 27, 90, 68);
@@ -2030,6 +2030,7 @@ function drawhome9() {
 
 function drawhome11() {
   gymBgm.stop();
+  v4_12.stop();
   if (ghost.isPlaying() == false) {
     ghost.play();
   }
@@ -2221,6 +2222,8 @@ function drawhome15() {
   cafeBgm.stop();
   decision.stop();
   my_girl.stop();
+  v6_13.stop();
+  v6_9.stop();
   if (ghost.isPlaying() == false) {
     ghost.play();
   }
@@ -2398,6 +2401,8 @@ function drawHomeFadeFrom17() {
 
 function drawhome19() {
   toxic.stop();
+  v8_8.stop();
+  v8_6.stop();
   if (ghost.isPlaying() == false) {
     ghost.play();
   }
@@ -7473,7 +7478,7 @@ function Coffee_1() {
   if (0 < frameCount % 60 && frameCount % 60 <= 30) {
     image(images[2][1], 1010, 375, 182, 265); // 첫 번째 이미지
   } else {
-    image(images[2][1.1], 1010, 375, 182, 265); // 두 번째 이미지
+    image(images[2][1.1], 1000, 365, 202, 285); // 두 번째 이미지
   }
   imageMode(CORNER);
   image(images[0][2], 58, 27, 90, 68); //홈 버튼
