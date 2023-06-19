@@ -8504,7 +8504,11 @@ function turnOffAllVariables() {
   curDay = 0;
   correct = [false, false, false, false, false];
   number = 0;
-  clothes[i][j].wearing = false;
+  for (let i = 0; i < 3; i++) {
+    for (let j=0; j<=5; j++) {
+      clothes[i][j].wearing = false;
+    }
+  }
 
 }
 
