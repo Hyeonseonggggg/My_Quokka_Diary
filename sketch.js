@@ -8502,6 +8502,7 @@ function turnOffAllVariables() {
   ending_v_now = true;
   curState = 0;
   curDay = 0;
+  curtime = 60;
   correct = [false, false, false, false, false];
   number = 0;
   for (let i = 0; i < 3; i++) {
