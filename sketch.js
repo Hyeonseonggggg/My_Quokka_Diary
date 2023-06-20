@@ -159,9 +159,9 @@ let sch_num = 50;
 let sch_xpos = [];
 let sch_ypos = [];
 
-let red_threshold = 100; //학생 게임 기준
-let yellow_threshold = 110; //그냥 넘어가면 낮게
-let green_threshold = 100;
+let red_threshold = 90; //학생 게임 기준
+let yellow_threshold = 120; //그냥 넘어가면 낮게
+let green_threshold = 80;
 
 //store
 let storeBgm;
